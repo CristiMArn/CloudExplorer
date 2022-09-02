@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		403634B528C220E60041D68E /* CloudExplorerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 403634B428C220E60041D68E /* CloudExplorerApp.swift */; };
+		403634B728C220E60041D68E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 403634B628C220E60041D68E /* ContentView.swift */; };
+		403634B928C220E80041D68E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 403634B828C220E80041D68E /* Assets.xcassets */; };
+		403634BC28C220E90041D68E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 403634BB28C220E90041D68E /* Preview Assets.xcassets */; };
+		403634C628C220E90041D68E /* CloudExplorerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 403634C528C220E90041D68E /* CloudExplorerTests.swift */; };
+		403634D028C220E90041D68E /* CloudExplorerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 403634CF28C220E90041D68E /* CloudExplorerUITests.swift */; };
+		403634D228C220E90041D68E /* CloudExplorerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 403634D128C220E90041D68E /* CloudExplorerUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		403634C228C220E90041D68E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 403634A928C220E60041D68E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 403634B028C220E60041D68E;
+			remoteInfo = CloudExplorer;
+		};
+		403634CC28C220E90041D68E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 403634A928C220E60041D68E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 403634B028C220E60041D68E;
+			remoteInfo = CloudExplorer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		403634B128C220E60041D68E /* CloudExplorer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CloudExplorer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		403634B428C220E60041D68E /* CloudExplorerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloudExplorerApp.swift; sourceTree = "<group>"; };
+		403634B628C220E60041D68E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		403634B828C220E80041D68E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		403634BB28C220E90041D68E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		403634C128C220E90041D68E /* CloudExplorerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CloudExplorerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		403634C528C220E90041D68E /* CloudExplorerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloudExplorerTests.swift; sourceTree = "<group>"; };
+		403634CB28C220E90041D68E /* CloudExplorerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CloudExplorerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		403634CF28C220E90041D68E /* CloudExplorerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloudExplorerUITests.swift; sourceTree = "<group>"; };
+		403634D128C220E90041D68E /* CloudExplorerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloudExplorerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		403634AE28C220E60041D68E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		403634BE28C220E90041D68E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		403634C828C220E90041D68E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		403634A828C220E60041D68E = {
+			isa = PBXGroup;
+			children = (
+				403634B328C220E60041D68E /* CloudExplorer */,
+				403634C428C220E90041D68E /* CloudExplorerTests */,
+				403634CE28C220E90041D68E /* CloudExplorerUITests */,
+				403634B228C220E60041D68E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		403634B228C220E60041D68E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				403634B128C220E60041D68E /* CloudExplorer.app */,
+				403634C128C220E90041D68E /* CloudExplorerTests.xctest */,
+				403634CB28C220E90041D68E /* CloudExplorerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		403634B328C220E60041D68E /* CloudExplorer */ = {
+			isa = PBXGroup;
+			children = (
+				403634B428C220E60041D68E /* CloudExplorerApp.swift */,
+				403634B628C220E60041D68E /* ContentView.swift */,
+				403634B828C220E80041D68E /* Assets.xcassets */,
+				403634BA28C220E90041D68E /* Preview Content */,
+			);
+			path = CloudExplorer;
+			sourceTree = "<group>";
+		};
+		403634BA28C220E90041D68E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				403634BB28C220E90041D68E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		403634C428C220E90041D68E /* CloudExplorerTests */ = {
+			isa = PBXGroup;
+			children = (
+				403634C528C220E90041D68E /* CloudExplorerTests.swift */,
+			);
+			path = CloudExplorerTests;
+			sourceTree = "<group>";
+		};
+		403634CE28C220E90041D68E /* CloudExplorerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				403634CF28C220E90041D68E /* CloudExplorerUITests.swift */,
+				403634D128C220E90041D68E /* CloudExplorerUITestsLaunchTests.swift */,
+			);
+			path = CloudExplorerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		403634B028C220E60041D68E /* CloudExplorer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 403634D528C220E90041D68E /* Build configuration list for PBXNativeTarget "CloudExplorer" */;
+			buildPhases = (
+				403634AD28C220E60041D68E /* Sources */,
+				403634AE28C220E60041D68E /* Frameworks */,
+				403634AF28C220E60041D68E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CloudExplorer;
+			productName = CloudExplorer;
+			productReference = 403634B128C220E60041D68E /* CloudExplorer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		403634C028C220E90041D68E /* CloudExplorerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 403634D828C220E90041D68E /* Build configuration list for PBXNativeTarget "CloudExplorerTests" */;
+			buildPhases = (
+				403634BD28C220E90041D68E /* Sources */,
+				403634BE28C220E90041D68E /* Frameworks */,
+				403634BF28C220E90041D68E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				403634C328C220E90041D68E /* PBXTargetDependency */,
+			);
+			name = CloudExplorerTests;
+			productName = CloudExplorerTests;
+			productReference = 403634C128C220E90041D68E /* CloudExplorerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		403634CA28C220E90041D68E /* CloudExplorerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 403634DB28C220E90041D68E /* Build configuration list for PBXNativeTarget "CloudExplorerUITests" */;
+			buildPhases = (
+				403634C728C220E90041D68E /* Sources */,
+				403634C828C220E90041D68E /* Frameworks */,
+				403634C928C220E90041D68E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				403634CD28C220E90041D68E /* PBXTargetDependency */,
+			);
+			name = CloudExplorerUITests;
+			productName = CloudExplorerUITests;
+			productReference = 403634CB28C220E90041D68E /* CloudExplorerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		403634A928C220E60041D68E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					403634B028C220E60041D68E = {
+						CreatedOnToolsVersion = 13.4;
+					};
+					403634C028C220E90041D68E = {
+						CreatedOnToolsVersion = 13.4;
+						TestTargetID = 403634B028C220E60041D68E;
+					};
+					403634CA28C220E90041D68E = {
+						CreatedOnToolsVersion = 13.4;
+						TestTargetID = 403634B028C220E60041D68E;
+					};
+				};
+			};
+			buildConfigurationList = 403634AC28C220E60041D68E /* Build configuration list for PBXProject "CloudExplorer" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 403634A828C220E60041D68E;
+			productRefGroup = 403634B228C220E60041D68E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				403634B028C220E60041D68E /* CloudExplorer */,
+				403634C028C220E90041D68E /* CloudExplorerTests */,
+				403634CA28C220E90041D68E /* CloudExplorerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		403634AF28C220E60041D68E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				403634BC28C220E90041D68E /* Preview Assets.xcassets in Resources */,
+				403634B928C220E80041D68E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		403634BF28C220E90041D68E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		403634C928C220E90041D68E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		403634AD28C220E60041D68E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				403634B728C220E60041D68E /* ContentView.swift in Sources */,
+				403634B528C220E60041D68E /* CloudExplorerApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		403634BD28C220E90041D68E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				403634C628C220E90041D68E /* CloudExplorerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		403634C728C220E90041D68E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				403634D028C220E90041D68E /* CloudExplorerUITests.swift in Sources */,
+				403634D228C220E90041D68E /* CloudExplorerUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		403634C328C220E90041D68E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 403634B028C220E60041D68E /* CloudExplorer */;
+			targetProxy = 403634C228C220E90041D68E /* PBXContainerItemProxy */;
+		};
+		403634CD28C220E90041D68E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 403634B028C220E60041D68E /* CloudExplorer */;
+			targetProxy = 403634CC28C220E90041D68E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		403634D328C220E90041D68E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		403634D428C220E90041D68E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		403634D628C220E90041D68E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CloudExplorer/Preview Content\"";
+				DEVELOPMENT_TEAM = T6D64L6EGY;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.arn.xcode-integrations.CloudExplorer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		403634D728C220E90041D68E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CloudExplorer/Preview Content\"";
+				DEVELOPMENT_TEAM = T6D64L6EGY;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.arn.xcode-integrations.CloudExplorer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		403634D928C220E90041D68E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T6D64L6EGY;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.arn.xcode-integrations.CloudExplorerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CloudExplorer.app/CloudExplorer";
+			};
+			name = Debug;
+		};
+		403634DA28C220E90041D68E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T6D64L6EGY;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.arn.xcode-integrations.CloudExplorerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CloudExplorer.app/CloudExplorer";
+			};
+			name = Release;
+		};
+		403634DC28C220E90041D68E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T6D64L6EGY;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.arn.xcode-integrations.CloudExplorerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CloudExplorer;
+			};
+			name = Debug;
+		};
+		403634DD28C220E90041D68E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T6D64L6EGY;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.arn.xcode-integrations.CloudExplorerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CloudExplorer;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		403634AC28C220E60041D68E /* Build configuration list for PBXProject "CloudExplorer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				403634D328C220E90041D68E /* Debug */,
+				403634D428C220E90041D68E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		403634D528C220E90041D68E /* Build configuration list for PBXNativeTarget "CloudExplorer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				403634D628C220E90041D68E /* Debug */,
+				403634D728C220E90041D68E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		403634D828C220E90041D68E /* Build configuration list for PBXNativeTarget "CloudExplorerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				403634D928C220E90041D68E /* Debug */,
+				403634DA28C220E90041D68E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		403634DB28C220E90041D68E /* Build configuration list for PBXNativeTarget "CloudExplorerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				403634DC28C220E90041D68E /* Debug */,
+				403634DD28C220E90041D68E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 403634A928C220E60041D68E /* Project object */;
+}
